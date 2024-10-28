@@ -1,0 +1,4 @@
+目录说明
+
+该目录下存放所有模型操作文件
+您的模型请自行继承基类模型，命名空间如下：\app\common\model\plugin\AppidModel

@@ -1,0 +1,20 @@
+[
+    {
+        "path": "Settings/tabs",
+        "title": "微信流量主",
+        "method": [
+            "GET"
+        ],
+        "component": "form/index",
+        "auth_params": "group=weixin_ad",
+        "show": "20",
+        "sort":100,
+        "icon": "FolderOpened",
+        "is_system": "10",
+        "is_api": "20",
+        "id": 16300,
+        "pid": 16000,
+        "is_default": "10",
+        "children": []
+    }
+]

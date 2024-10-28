@@ -1,0 +1,18 @@
+{
+    "name": "loong/oauth",
+    "description": "基于TP8, 不同系统之间安全传递信息, 用于用户登录验证, 信息传递等",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "loong\\oauth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Unknown",
+            "email": "1016683587@qq.com"
+        }
+    ],
+    "require": {}
+}

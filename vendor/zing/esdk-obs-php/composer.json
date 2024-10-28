@@ -1,0 +1,20 @@
+{
+	"name" : "zing/esdk-obs-php",
+	"description" : "OBS PHP SDK",
+	"license":"Apache-2.0",
+	"require" : {
+		"php" : ">=7.1",
+		"guzzlehttp/guzzle" : "^6.3.0 || ^7.0",
+		"guzzlehttp/psr7" : "^1.4.2 || ^2.0",
+		"monolog/monolog" : "^1.23.0 || ^2.0 || ^3.0"
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"keywords" :["obs", "php"],
+	"autoload": {
+		"psr-4": {
+			"Obs\\": "Obs/"
+		}
+    }
+}

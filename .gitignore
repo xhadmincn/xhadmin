@@ -1,0 +1,15 @@
+*.log
+.env
+.env2
+.example.env
+composer.phar
+.DS_Store
+Thumbs.db
+.user.ini
+/.idea
+/.vscode
+/.settings
+/.buildpath
+/.project
+auto_install.json
+/config/yc_plugins_domains.php

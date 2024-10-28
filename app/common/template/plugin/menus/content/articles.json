@@ -1,0 +1,184 @@
+[
+    {
+        "path": "Articles/index",
+        "title": "文章管理",
+        "method": [
+            "GET"
+        ],
+        "component": "table/index",
+        "auth_params": "",
+        "show": "20",
+        "sort":100,
+        "icon": "",
+        "is_system": "10",
+        "is_api": "20",
+        "id": 12000,
+        "pid": 11000,
+        "is_default": "10",
+        "children": [
+            {
+                "path": "Articles/add",
+                "title": "文章管理-添加",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 12001,
+                "pid": 12000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Articles/edit",
+                "title": "文章管理-修改",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 12002,
+                "pid": 12000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Articles/del",
+                "title": "文章管理-删除",
+                "method": [
+                    "GET"
+                ],
+                "component": "none/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 12003,
+                "pid": 12000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Articles/indexGetTable",
+                "title": "文章管理-表格",
+                "method": [
+                    "GET"
+                ],
+                "component": "none/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 12004,
+                "pid": 12000,
+                "is_default": "10",
+                "children": []
+            }
+        ]
+    },
+    {
+        "path": "ArticlesCate/index",
+        "title": "文章分类",
+        "method": [
+            "GET"
+        ],
+        "component": "table/index",
+        "auth_params": "",
+        "show": "20",
+        "sort":100,
+        "icon": "",
+        "is_system": "10",
+        "is_api": "10",
+        "id": 13000,
+        "pid": 11000,
+        "is_default": "10",
+        "children": [
+            {
+                "path": "ArticlesCate/add",
+                "title": "文章分类-添加",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 13001,
+                "pid": 13000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "ArticlesCate/edit",
+                "title": "文章分类-修改",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 13002,
+                "pid": 13000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "ArticlesCate/del",
+                "title": "文章分类-删除",
+                "method": [
+                    "GET"
+                ],
+                "component": "",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 13003,
+                "pid": 13000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "ArticlesCate/indexGetTable",
+                "title": "文章分类-表格",
+                "method": [
+                    "GET"
+                ],
+                "component": "",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 13004,
+                "pid": 13000,
+                "is_default": "10",
+                "children": []
+            }
+        ]
+    }
+]

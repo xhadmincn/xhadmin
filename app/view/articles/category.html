@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>新手帮助</title>
+    <style>
+        .category-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .category-container .category-title{
+            padding: 15px;
+            font-size:18px;
+            font-weight: 700;
+        }
+        .category-container .article-container{
+        }
+        .category-container .article-container .item{
+            border-top: 1px solid #e1e1e1;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            text-decoration: none;
+        }
+        .category-container .article-container .article-title{
+            font-size: 14px;
+            color: #333;
+        }
+        .category-container .article-container .create-time{
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="category-container">
+        <div class="category-title">{$data['title']}</div>
+        <div class="article-container">
+            {foreach $data['articles'] as $key=>$item } 
+            <a href="{:url('articles/detail', ['appid'=> $item.saas_appid,'aid' => $item.id])}" class="item">
+                <div class="article-title">{$item.title}</div>
+                <div class="create-time">{$item.create_at}</div>
+            </a>
+            {/foreach}
+        </div>
+    </div>
+</body>
+</html>

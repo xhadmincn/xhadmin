@@ -1,0 +1,71 @@
+{
+    "name": "topthink/think",
+    "description": "the new thinkphp framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "https://www.thinkphp.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        },
+        {
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
+        },
+        {
+            "name": "renloong",
+            "email": "1016683587@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "topthink/framework": "^8.0",
+        "topthink/think-orm": "^3.0",
+        "xbai/plugins": "^1.0",
+        "xaboy/form-builder": "^2.0",
+        "topthink/think-multi-app": "^1.0",
+        "topthink/think-view": "^2.0",
+        "topthink/think-cache": "^1.1",
+        "topthink/think-validate": "^2.0",
+        "zjkal/mysql-helper": "^1.0",
+        "yzh52521/think-filesystem": "^3.0",
+        "yc-open/cloud-service": "dev-master",
+        "topthink/think-ide-helper": "^1.0",
+        "pclzip/pclzip": "^2.8",
+        "loong/oauth": "^1.1",
+        "topthink/think-swoole": "^4.0",
+        "symfony/var-dumper": "^6.0",
+        "topthink/think-queue": "^3.0",
+        "easy-task/easy-task": "^2.4",
+        "topthink/think-captcha": "^3.0",
+        "phpoffice/phpspreadsheet": "^2.0",
+        "phpoffice/phpword": "^1.2",
+        "loong/apistore-cloud": "^1.0"
+    },
+    "require-dev": {
+        "topthink/think-trace": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php think service:discover",
+            "@php think vendor:publish"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "name": "xhadmin",
+    "title": "基于xhadmin快速创建属于自己的多应用Saas框架",
+    "tab_title": "xhadmin多应用Saas框架系统",
+    "description": "xhadmin 是一套基于最新技术的研发的多应用 Saas 框架，支持在线升级和安装模块及模板拥有良好的底层架构、成熟稳定的技术解决方案、提供丰富的扩展功能。",
+    "copyright": "贵州猿创科技有限公司",
+    "icp": "黔ICP备15002534号-19",
+    "beian_code": "52010302003421",
+    "beian": "贵公网安备 52010302003421号",
+    "logo_use": "svg",
+    "logo_white": "upload/channels/logo_white/262a72a9ef1447d1a2f9e898b08d25b0.png",
+    "logo_dark": "upload/channels/logo_dark/49692791d4f5a6c75d4bb3502cc8459d.png",
+    "icon": null,
+    "public_api": {
+        "doc": "http://doc.kfadmin.net/kfadmin-doc/",
+        "demo": "http://demo.kfadmin.net/store",
+        "download": "https://www.kfadmin.net/downloads?origin=https%3A%2F%2Fwww.xhadmin.cn",
+        "kfurl_after": "https://work.weixin.qq.com/kfid/kfcd7f9bb79b025a549",
+        "kfurl_before": "https://work.weixin.qq.com/kfid/kfcd7f9bb79b025a549",
+        "base": "https://www.xhadmin.cn/",
+        "register": "https://www.xhadmin.cn/#/register",
+        "login": "https://www.xhadmin.cn/#/login",
+        "forgot": "https://www.xhadmin.cn/#/forgot",
+        "bindsite": "https://www.xhadmin.cn/#/control/apps"
+    },
+    "update_at": "2023-11-01 12:28:09",
+    "readme": null,
+    "license": null,
+    "wechat": "18786709420（微信同号）",
+    "wechat_url": "https://work.weixin.qq.com/kfid/kfcd7f9bb79b025a549",
+    "wechat_qrcode": "upload/channels/wechat_qrcode/faeb58f3d9b7e1524b3fb1d943115022.jpg",
+    "ecology": [
+        {
+            "name": "使用文档",
+            "target": "_blank",
+            "url": "http://doc.kfadmin.net/kfadmin-doc/"
+        },
+        {
+            "name": "在线社区",
+            "target": "_blank",
+            "url": "https://www.xhadmin.net/#/apps"
+        }
+    ],
+    "install_agreement": "upload/install_agreement/uid_3/agreement.txt",
+    "logo_white_url": "//kfadmin.net/upload/channels/logo_white/262a72a9ef1447d1a2f9e898b08d25b0.png",
+    "logo_dark_url": "//kfadmin.net/upload/channels/logo_dark/49692791d4f5a6c75d4bb3502cc8459d.png",
+    "wechat_qrcode_url": "//kfadmin.net/upload/channels/wechat_qrcode/faeb58f3d9b7e1524b3fb1d943115022.jpg",
+    "token": "mjJz07YCvST0fZCCnC300XNNL3Y0U1loUk9uZWJUTTU5M0gxRFE9PQ==",
+    "site_encrypt": "T5FQJS10wpHrzlXJY7xJTb83qRIjUCqHPSBTOotBPRh3O7c15VvuzrJyWCw1VvwzbwhqXJvAho7OtgTC+tdKXabKjOoYFpXlfXU421/CRZOOmugmZLmhuynO29Q9Mvl4Lc8iyfMowGwlv+vKrp1tq6qpg8msK8bErUIfWIiSDpNO33jhoi8J+Lf0WmMPAp1P2ov//D5QHrvsR8c5gxtC0f7V43DmEKzDCGzzqa/hkd2UgmcxLiWBp+ITNuFPp7N9wRBnc00TaC/vuvJcfykXjaH2wFc918ZGHBLaQHq3vSoOKdRBeTrexi0p/kNQo5xvYnlC1awP/P0ftgTe/VGNuw==DhJGrqT3xLTWjLLAfe5lydv7qVlklxkkCMTJaWG9F0timn2WDUinWzHcZuqtheZ6N7xXyCWgQhdb2j6UaruDOBWfXYX5KoMqX/NZ6nio7aJ/a+K+8MHCnokE7IVrJfE09kPaRmrn7/z1cwv3ZhGYLQFwXyXkAo/QjFR95Di++9GTN0XP0SWCRxjW+LCEifRKB/BOpsKrZvGxWbolwl6B/029cYXko7h82YaFC//7O7/dPwFhzOThfxmENB91P8rB74N/VwykmRQUvpoV8MkdtTxs/lwS61mwug8cKf5ahsWcuT+Se60kuGMw6TDJ5xXyJpojhfaturQJc9h5HJFL/Q==ZR2hH8Ko2r/aMMCQ5DAlXbhzxtmihME6ews7O7zpdayjEMAAAHCfDMlFbcQLJJgmxoNN/R1UJVMJPbI61ZAuc3+Tsw0oAnojTTzj4vFbMGoaPJtDXslGHThRD5t4+OWKaOz9dqxJnF7o2S2OXqoZ1qDGmj0sOZFr1Xa9XUXSzjS367EnMHz8IWH3X1ZaQtrcZoXzXR0/h9rGlNxcAVFCzEomD0PG9iaVp1RgGHMPu8LCDmS7k4H4e+6qQ6V7fjkDWZbCVhXbfa32/f8vfQBKNbQXj39t/cNmjMB9PaSeHXKZd5kYOyAyKqizqGnyum3Oql4sv4brjgEtiYQmIIboRg==",
+    "privatekey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDr6WtIX5KX3igY\nkMLpwuv+qKEY3vASbLK6sOHb6DRtD38Zs62kgEAu6nPJNXR9rXHnMifbmpSiRqK9\nkouN9W1c+aLI5B0zfeZU1B0x1QlWoerJz5dQMp1O49NNcXeEQLDpW8MSUMcCcRUm\nSukA4bQOu6iV+KRooHmCxxjo3lMVc7o/fTc2ZwtHOfwDMM7XsdAHghh17fyXKuAw\niG5BA3lGSy8A7wDk/BOpNrLVgLU7VeoGQALC5uBXsUk3ByJR1jwkIXAwBmQQ33gh\n/Lu+K3Su+sgajxXu+9qz+Wt2116kUDhPxOG9TElv8fc0UyOkzQxQ1mxhkMgmGp8Y\nnoQKGv6vAgMBAAECggEAJENbJGLci8+wZiZKb9hwolKVgNc0HADtcFkkPsNw25rY\nNMEz3eeA9jU/2xwGbhMtQRaqnc0jL9afyXgvT4D8cKBG745xFqsxrrR0UGao6tI0\n3xSz87X0DF5k6rCYaJHxH83lLHmSPcPYNmypaGNJZEJgZb00uIiCZSHpqFIUf2Vh\nFjT1mvyL8+Np7B5S7V4HauvslsvfDmHVbjzY4bPp9rlrhF0Cagul69vlK9MiewNa\nnYeqSi56v0gJ5yUI0thkDgRnEMxvcCx1RZQ7M6it814jEhHrujn3lErOLIfFFmbi\n2EQtKO179uXE3WfrFNNPMlvinGp+IbdgYg23OeNooQKBgQD8Dz92HSVetEGu3IRp\nDDRdpK7Q1mEQLTq7SI5xd4cnJ4Xc2hxnVZk0ZuEDcN0C2oMzqTMWG6O7L1T7izFs\nSohcd3VH0zNpD81S4IzFqITsH0IdJZZKGj1XMRG6RhQcNu7/xHg6rnIKRXq6ALDi\nMWlA08+CdI8auqrzFnHGpVqImQKBgQDvmYwUJXNOIdod5Y/O2xGUG+RRdvs3EVRS\npVbddy53j6qU1o7u9+DqjfcgYbwVoi/UyNdCS6h243llOTP9fXBcO8fuSopL2XtQ\ndHooMyGjjDZYG9OzLX2Q0hQzuR/r0afvoiTsQIq8SN2At4B/B8kjHgJ3qoA3C6VJ\n4cwkUnBmhwKBgQCTLmQkGAjGMANak7FNla7OL2dU0pmC1KZCza8/Wkg0+MMVntaP\nEFCRZLFnTPQAwo9yDw6hjiohFxZMe460aSEOvUJiWlTeuDdweWY51JkpN2dnlZcY\nVhITY7eySVFc2EbeWl7KBSraDJAJJHYk3i1TiVrWFjGpre48W5K8J7mhoQKBgCZa\nwxS6hgG844ijpeisIt09tcfgrwg6qu/r7cLYAEU9Z0YaLplMbuG9RhEV9CDWbKe4\nWtUO/XHCqj0s8gijGuh43WFk50yLDPVtH9ztinX+zPg/xBzLrG0RZBB/kv+R+Tsg\nDp8PGeZYF7UyKsyq92S6uhRj49Br+dKg5afu1nVjAoGAI+xBCdCU/dFvmGjYWELR\neicVnkwGdBnf9ELg/8jN9UFQqPOOAA5RqQiNEEECUjdGmTJ54Gs2bDXBaMWUScAH\nXqVDOssNb3vU3HuMYemIrbjuYG+jjmDvgRnQNUbHp/5udpJSnPfL5yOJd0enmOzB\nKNqF4Mh7vnuOG5zKvlzOTL0=\n-----END PRIVATE KEY-----\n"
+}

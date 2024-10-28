@@ -1,0 +1,23 @@
+{
+    "name": "loong/apistore-cloud",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "loong\\ApiStore\\": "src/"
+        },
+        "files": [
+            "./src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "余心",
+            "email": "unknown.renlong@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.7",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

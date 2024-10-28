@@ -1,0 +1,93 @@
+[
+    {
+        "path": "Tags/index",
+        "title": "单页管理",
+        "method": [
+            "GET"
+        ],
+        "component": "table/index",
+        "auth_params": "",
+        "show": "20",
+        "sort":100,
+        "icon": "",
+        "is_system": "10",
+        "is_api": "20",
+        "id": 14000,
+        "pid": 11000,
+        "is_default": "10",
+        "children": [
+            {
+                "path": "Tags/add",
+                "title": "单页管理-添加",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 14001,
+                "pid": 14000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Tags/edit",
+                "title": "单页管理-修改",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 14002,
+                "pid": 14000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Tags/del",
+                "title": "单页管理-删除",
+                "method": [
+                    "GET"
+                ],
+                "component": "none/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 14003,
+                "pid": 14000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Tags/indexGetTable",
+                "title": "单页管理-表格",
+                "method": [
+                    "GET"
+                ],
+                "component": "none/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 14004,
+                "pid": 14000,
+                "is_default": "10",
+                "children": []
+            }
+        ]
+    }
+]

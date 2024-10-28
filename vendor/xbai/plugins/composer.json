@@ -1,0 +1,33 @@
+{
+    "name": "xbai/plugins",
+    "autoload": {
+        "psr-4": {
+            "Xbai\\Plugins\\": "src/",
+            "support\\": "src/support/"
+        },
+        "files": [
+            "src/utils/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "楚羽幽",
+            "email": "cy958416459@qq.com"
+        },
+        {
+            "name": "RenLoong",
+            "email": "unknown.renlong@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "think": {
+            "services": [
+                "Xbai\\Plugins\\Service"
+            ]
+        },
+        "config": {
+            "plugins": "src/config/plugins.php"
+        }
+    }
+}

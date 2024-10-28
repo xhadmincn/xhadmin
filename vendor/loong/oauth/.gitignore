@@ -1,0 +1,9 @@
+.git
+/.git
+.git/
+.vscode
+.env
+example.php
+index.php
+composer.lock
+vendor

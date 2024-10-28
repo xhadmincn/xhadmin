@@ -1,0 +1,20 @@
+[
+    {
+        "path": "Settings/tabs",
+        "title": "支付设置",
+        "method": [
+            "GET"
+        ],
+        "component": "form/index",
+        "auth_params": "group=pay",
+        "show": "20",
+        "sort":100,
+        "icon": "",
+        "is_system": "10",
+        "is_api": "20",
+        "id": 10005,
+        "pid": 10,
+        "is_default": "10",
+        "children": []
+    }
+]

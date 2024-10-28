@@ -1,0 +1,93 @@
+[
+    {
+        "path": "Ads/index",
+        "title": "广告管理",
+        "method": [
+            "GET"
+        ],
+        "component": "table/index",
+        "auth_params": "",
+        "show": "20",
+        "sort":100,
+        "icon": "",
+        "is_system": "10",
+        "is_api": "20",
+        "id": 17000,
+        "pid": 11000,
+        "is_default": "10",
+        "children": [
+            {
+                "path": "Ads/add",
+                "title": "广告管理-添加",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 17001,
+                "pid": 17000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Ads/edit",
+                "title": "广告管理-修改",
+                "method": [
+                    "GET"
+                ],
+                "component": "form/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 17002,
+                "pid": 17000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Ads/del",
+                "title": "广告管理-删除",
+                "method": [
+                    "GET"
+                ],
+                "component": "none/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 17003,
+                "pid": 17000,
+                "is_default": "10",
+                "children": []
+            },
+            {
+                "path": "Ads/indexGetTable",
+                "title": "广告管理-表格",
+                "method": [
+                    "GET"
+                ],
+                "component": "none/index",
+                "auth_params": "",
+                "show": "10",
+                "sort":100,
+                "icon": "",
+                "is_system": "10",
+                "is_api": "20",
+                "id": 17004,
+                "pid": 17000,
+                "is_default": "10",
+                "children": []
+            }
+        ]
+    }
+]

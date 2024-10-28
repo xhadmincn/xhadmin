@@ -1,0 +1,20 @@
+[
+    {
+        "path": "Content/group",
+        "title": "内容",
+        "method": [
+            "GET"
+        ],
+        "component": "none/index",
+        "auth_params": "",
+        "show": "20",
+        "sort":100,
+        "icon": "FolderOpened",
+        "is_system": "10",
+        "is_api": "10",
+        "id": 11000,
+        "pid": 0,
+        "is_default": "10",
+        "children": []
+    }
+]

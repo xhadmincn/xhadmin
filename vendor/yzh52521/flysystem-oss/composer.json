@@ -1,0 +1,38 @@
+{
+  "name": "yzh52521/flysystem-oss",
+  "type": "library",
+  "description": "Aliyun OSS Adapter for Flysystem v3.0 ",
+  "keywords": [
+    "flysystem-oss",
+    "aliyun-oss",
+    "flysystem3.0",
+    "aliyun",
+    "oss",
+    "filesystem",
+    "adapter"
+  ],
+  "homepage": "https://github.com/yzh52521/flysystem-oss",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yzh52521",
+      "email": "yzh52521@gmail.com",
+      "homepage": "https://github.com/yzh52521",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "yzh52521@gmail.com",
+    "wiki": "https://github.com/yzh52521"
+  },
+  "require": {
+    "php": "^8.0.2",
+    "league/flysystem": "^3.0",
+    "aliyuncs/oss-sdk-php": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "yzh52521\\Flysystem\\Oss\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "path": "Settings/tabs",
+        "title": "流量主配置",
+        "method": [
+            "GET"
+        ],
+        "component": "form/index",
+        "auth_params": "group=advertisement",
+        "show": "20",
+        "sort":100,
+        "icon": "",
+        "is_system": "10",
+        "is_api": "20",
+        "id": 16200,
+        "pid": 16000,
+        "is_default": "10",
+        "children": []
+    }
+]
